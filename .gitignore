@@ -27,3 +27,6 @@
 
 ### VS Code ###
 .vscode/
+
+/contracts
+/build-output
