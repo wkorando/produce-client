@@ -1,0 +1,21 @@
+name: add-produce
+description: Operation for adding a new produce item
+ignored: true
+request:
+  method: POST
+  url: /api/v1/produce
+  headers:
+    Content-Type: application/json;charset=UTF-8
+  body:
+    name: "Kiwi"
+    subName: ""
+    quantity: 75
+response:
+  status: 200
+  body:
+    id: 10
+    name: "Kiwi"
+    subName: ""
+    quantity: 75
+  headers:
+    Content-Type: application/json;charset=UTF-8
