@@ -11,7 +11,7 @@ docker run  --rm \
 -e "EXTERNAL_CONTRACTS_REPO_WITH_BINARIES_URL=git://https://github.com/wkorando/produce-contracts.git" \
 -v "$(pwd)/build-output:/spring-cloud-contract-output/" \
 -v "$(pwd)/contracts/:/contracts:ro" \
-springcloud/spring-cloud-contract:2.2.0.BUILD-SNAPSHOT
+springcloud/spring-cloud-contract:2.1.1.RELEASE
 
 #2.1.1.RELEASE
 #2.2.0.BUILD-SNAPSHOT --no tests
