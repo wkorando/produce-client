@@ -1,4 +1,4 @@
-docker run  --rm \
+docker run --rm \
 -e "STUBRUNNER_IDS=com.ibm.developer:produce-service:+:stubs:9876" \
 -e "STUBRUNNER_REPOSITORY_ROOT=git://https://github.com/wkorando/produce-contracts.git" \
 -e "STUBRUNNER_STUBS_MODE=REMOTE" \
